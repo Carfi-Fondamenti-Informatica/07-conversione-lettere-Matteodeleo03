@@ -1,3 +1,4 @@
+
 #include "lib.h"
 
 bool caratteri(char &x){
@@ -5,9 +6,12 @@ bool caratteri(char &x){
         x += 32;
         return true;
     }else if(x >= 97 && x <= 122){
+​
+​
         x -= 32;
         return true;
     }else
-        return false;}
+        return false;
+}
 
 
