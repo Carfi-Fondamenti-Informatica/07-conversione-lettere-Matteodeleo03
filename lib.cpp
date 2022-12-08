@@ -8,6 +8,6 @@ bool caratteri(char &x){
         x -= 32;
         return true;
     }else
-        return false;
-}
+        return false;}
+
 
